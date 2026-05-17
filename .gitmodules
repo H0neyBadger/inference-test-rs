@@ -1,0 +1,3 @@
+[submodule "scripts/diy-alexa"]
+	path = scripts/diy-alexa
+	url = git@github.com:H0neyBadger/diy-alexa.git
