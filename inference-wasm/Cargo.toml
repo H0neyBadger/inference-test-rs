@@ -1,0 +1,17 @@
+# cargo install wasm-pack
+# rustup override set nightly
+
+# wasm-pack build --target bundler
+
+[package]
+name = "inference-wasm"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+inference-test = { version = "0.1.0", path = ".." }
+js-sys = "0.3.103"
+wasm-bindgen = "0.2.126"
